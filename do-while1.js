@@ -5,7 +5,7 @@ let soma = 0;
 
 do {
     let matricula = prompt(`Digite a matrícula do aluno ${i + 1}:`);
-    let nota = parseFloat(prompt(`Digite a nota do aluno ${i + 1}:`));
+    let nota = prompt(`Digite a nota do aluno ${i + 1}:`);
     alunos.push({matricula, nota});
     soma += nota;
     i++;
@@ -16,7 +16,7 @@ console.log(`Média: ${media}`);
 console.log("Alunos com nota acima da média:");
 
 i = 0;
-do {
+do {    
     if (alunos[i].nota > media) {
         console.log(alunos[i].matricula);
     }

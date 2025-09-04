@@ -3,7 +3,7 @@ let i = 0;
 let comFebre = 0;
 
 while (i < n) {
-    let temp = parseFloat(prompt(`Digite a temperatura da pessoa ${i + 1}:`));
+    let temp = prompt(`Digite a temperatura da pessoa ${i + 1}:`);
     if (temp > 38) {
         comFebre++;
     }

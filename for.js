@@ -2,7 +2,7 @@ let n = parseInt(prompt("Quantas pessoas?"));
 let comFebre = 0;
 
 for (let i = 0; i < n; i++) {
-    let temp = parseFloat(prompt(`Digite a temperatura da pessoa ${i + 1}:`));
+    let temp = prompt(`Digite a temperatura da pessoa ${i + 1}:`);
     if (temp > 38) {
         comFebre++;
     }
